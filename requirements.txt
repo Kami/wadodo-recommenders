@@ -1,0 +1,8 @@
+# General
+zope.interface>=4.0.5,<=4.1
+
+# NLTK
+nltk>=2.0.4,<=2.1
+
+# Local development
+flake8
