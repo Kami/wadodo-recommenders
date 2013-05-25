@@ -6,3 +6,8 @@ nltk>=2.0.4,<=2.1
 
 # Local development
 flake8
+pydoctor
+
+# For pydoctor
+Twisted>=13.0.0,<=13.1
+nevow # for pydoctor
