@@ -28,7 +28,8 @@ WADODO_TO_FACEBOOK_CATEGORY_MAP = {
 # Reverse of WADODO_TO_FACEBOOK_CATEGORY_MAP
 FACEBOOK_TO_WADODO_CATEGORY_MAP = {}
 
-for wadodo_category, facebook_categories in WADODO_TO_FACEBOOK_CATEGORY_MAP:
+for wadodo_category, facebook_categories in \
+        WADODO_TO_FACEBOOK_CATEGORY_MAP.items():
     for facebook_category in facebook_categories:
         FACEBOOK_TO_WADODO_CATEGORY_MAP[facebook_category] = wadodo_category
 
