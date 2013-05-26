@@ -1,3 +1,3 @@
-# Wadodo Algorithms
+# Wadodo Recommendation Engine
 
-Algorithms for finding matching activities for a user.
+Recommended engine which suggests matching activities for a particular user.
