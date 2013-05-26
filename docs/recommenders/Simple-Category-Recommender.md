@@ -1,7 +1,7 @@
-# Simple Category Matcher
+# Simple Category Recommender
 
-A matcher which finds matching activities based on the relative importance from
-categories which are parsed from user's likes.
+A recommender which finds matching activities based on the relative importance 
+from categories which are parsed from user's likes.
 
 ## How it works
 

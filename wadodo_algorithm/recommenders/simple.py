@@ -1,9 +1,9 @@
 import zope.interface
 
-from wadodo_algorithm.models.matcher import IMatcher
+from wadodo_algorithm.models.recommender import IRecommender
 
 __all__ = [
-    'SimpleCategoryMatcher'
+    'SimpleCategoryRecommender'
 ]
 
 # Maps Wadodo category to Facebook category
@@ -33,13 +33,13 @@ for wadodo_category, facebook_categories in WADODO_TO_FACEBOOK_CATEGORY_MAP:
         FACEBOOK_TO_WADODO_CATEGORY_MAP[facebook_category] = wadodo_category
 
 
-class SimpleCategoryMatcher(object):
+class SimpleCategoryRecommender(object):
     """
-    A matcher which finds matching activities based on the relative importance
-    from categories which are parsed from user's likes.
+    A recommender which finds matching activities based on the relative
+    importance from categories which are parsed from user's likes.
     """
 
-    zope.interface.implements(IMatcher)
+    zope.interface.implements(IRecommender)
 
     def __init__(self, threshold):
         """
@@ -49,8 +49,8 @@ class SimpleCategoryMatcher(object):
         """
         self._threshold = float(threshold)
 
-    def get_matched_activities(self, activities, user_info):
-        matched_activities = []
+    def get_recommended_activities(self, activities, user_info):
+        recommended_activities = []
         relative_importance = \
             self._get_likes_relative_importance(user_info.likes)
 
