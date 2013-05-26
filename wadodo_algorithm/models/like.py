@@ -6,6 +6,7 @@ __all__ = [
 
 
 class ILike(zope.interface.Interface):
+
     """
     Represents an entity user has liked.
     """

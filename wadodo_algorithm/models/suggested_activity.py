@@ -6,6 +6,7 @@ import zope.interface
 
 
 class ISuggestedActivity(zope.interface.Interface):
+
     """
     Represents activity suggested for a user.
     """

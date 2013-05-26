@@ -6,6 +6,7 @@ import zope.interface
 
 
 class IActivity(zope.interface.Interface):
+
     """
     Represents an acitivity.
     """

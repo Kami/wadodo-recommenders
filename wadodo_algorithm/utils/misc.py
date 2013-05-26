@@ -5,6 +5,7 @@ __all__ = [
 
 
 class ClassRepresentationMixin(object):
+
     def __unicode__(self):
         return cls_to_str(self)
 

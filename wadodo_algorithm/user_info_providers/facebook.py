@@ -14,6 +14,7 @@ from wadodo_algorithm.utils.date import born_str_to_age
 
 
 class FacebookUserInfoProvider(object):
+
     """
     UserInfoProvider which uses Facebook's Graph API as a primary data source.
 
