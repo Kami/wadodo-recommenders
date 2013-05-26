@@ -9,6 +9,7 @@ facebook-sdk>=0.4,<=0.5
 
 # Local development
 flake8
+autopep8>=0.9,<=0.10
 pydoctor
 
 # For pydoctor
