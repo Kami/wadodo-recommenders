@@ -4,6 +4,9 @@ zope.interface>=4.0.5,<=4.1
 # NLTK
 nltk>=2.0.4,<=2.1
 
+# User Info Providers
+facebook-sdk>=0.4,<=0.5
+
 # Local development
 flake8
 pydoctor
