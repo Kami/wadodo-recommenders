@@ -16,7 +16,7 @@ class IUserInfo(zope.interface.Interface):
     gender = zope.interface.Attribute("""Gender""")
     age = zope.interface.Attribute("""Age (in years)""")
 
-    likes = zope.interface.Attribute("""A list of likes for this user""")
+    likes = zope.interface.Attribute("""A list of C{Like} objects for this user""")
 
 
 class UserInfo(ClassRepresentationMixin):
