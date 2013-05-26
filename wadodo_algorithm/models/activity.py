@@ -11,6 +11,7 @@ class IActivity(zope.interface.Interface):
     Represents an acitivity.
     """
 
+    id = zope.interface.Attribute("""""")
     title = zope.interface.Attribute("""""")
     categories = zope.interface.Attribute("""""")
     age_groups = zope.interface.Attribute("""""")
