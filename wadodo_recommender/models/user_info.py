@@ -4,7 +4,7 @@ __all__ = [
 
 import zope.interface
 
-from wadodo_algorithm.utils.misc import ClassRepresentationMixin
+from wadodo_recommender.utils.misc import ClassRepresentationMixin
 
 
 class IUserInfo(zope.interface.Interface):

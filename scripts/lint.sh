@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pep8 wadodo_algorithm/
+pep8 wadodo_recommender/

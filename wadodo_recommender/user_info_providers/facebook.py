@@ -7,10 +7,10 @@ __all__ = [
 import zope.interface
 import facebook
 
-from wadodo_algorithm.models.user_info_provider import IUserInfoProvider
-from wadodo_algorithm.models.user_info import UserInfo
-from wadodo_algorithm.models.like import Like
-from wadodo_algorithm.utils.date import born_str_to_age
+from wadodo_recommender.models.user_info_provider import IUserInfoProvider
+from wadodo_recommender.models.user_info import UserInfo
+from wadodo_recommender.models.like import Like
+from wadodo_recommender.utils.date import born_str_to_age
 
 
 class FacebookUserInfoProvider(object):

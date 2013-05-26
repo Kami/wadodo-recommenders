@@ -1,6 +1,6 @@
 import zope.interface
 
-from wadodo_algorithm.models.recommender import IRecommender
+from wadodo_recommender.models.recommender import IRecommender
 
 __all__ = [
     'SimpleCategoryRecommender'
