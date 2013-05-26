@@ -13,6 +13,12 @@ class IUserInfoProvider(zope.interface.Interface):
     title = zope.interface.Attribute("""Provider name""")
     access_token = zope.interface.Attribute("""Token used to access the user data""")
 
+    def get_likes(self):
+        """
+        Return a dictionary of likes for this user where a key is a word stem
+        and value is a frequency.
+        """
+
     def get_user_info(self):
         """
         Return UserInfo object.
